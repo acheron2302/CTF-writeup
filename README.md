@@ -74,6 +74,7 @@ So after the first input, the output the xmm0 register after pxor is "C?i{P?MDf0
 The output of the location 6 and 7 is "M" and "D" so with that we got the next input, repeat the process until u find the flag.
 
 To check the XMM0 register, i use gdb, so i write a python script to print out the output every process and then get that input into the next input.
+You have manually input it after each run.
 ```
 #!/usr/bin/gdb -x
 
